@@ -1,4 +1,4 @@
-import { connectDB } from "@/lib/connectDB.js";
+import { connectDB } from "@/lib/dbConnect";
 import Result from "@/models/Result";
 import { withRole } from "@/lib/authorize";
 
