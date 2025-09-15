@@ -1,4 +1,4 @@
-import { connectDB } from "@/lib/connectDB";
+import { connectDB } from "@/lib/connectDB.js";
 import Assignment from "@/models/Assignment";
 import { withRole } from "@/lib/authorize";
 

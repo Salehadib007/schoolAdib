@@ -1,4 +1,4 @@
-import { connectDB } from "@/lib/connectDB";
+import { connectDB } from "@/lib/connectDB.js";
 import Teacher from "@/models/Teacher";
 import { withRole } from "@/lib/authorize";
 import cloudinary from "@/lib/cloudinary";
